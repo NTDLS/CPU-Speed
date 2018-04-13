@@ -115,7 +115,7 @@ DWORD WINAPI CPUTimer_Thread(LPVOID lpVoid)
 	char *sSymbol = "";
 	double dDivisor = 1;
 
-	sprintf_s(sText, sizeof(sText), "%d Processor", SI.dwNumberOfProcessors);
+	sprintf_s(sText, sizeof(sText), "%d Logical Cores", SI.dwNumberOfProcessors);
 	if(SI.dwNumberOfProcessors > 1)
 	{
 		strcat_s(sText, sizeof(sText), "s");

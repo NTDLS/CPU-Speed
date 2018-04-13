@@ -8,3 +8,6 @@
 *.pdb
 *.exe
 *.ilk
+*.user
+*.ipch
+*.res
